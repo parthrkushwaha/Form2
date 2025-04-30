@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="index.css">
+    <!-- <span id="element"></span> -->
+    <div class="ele">
+        <span id="element"></span>
+    </div>
+    <form action="" onsubmit="Submitfunction()">
+        <div class="container1">
+            <div class="box1">
+                <h1 class="box3">Registration
+                    <hr class="line">
+                </h1>
+                <!-- <hr class="line"> -->
+                <div id="con1">
+                    <input type="text" name="my name" id="name" placeholder="enter name"
+                        onkeydown="return /[a-zA-Z]/i.test(event.key)" required>
+                </div>
+                <br>
+                <div id="con1">
+                    <input type="text" name="my email" id="email" placeholder="enter email">
+                </div>
+                <br>
+                <div id="con1">
+                    <input type="text" name="my password" id="password" placeholder="enter your password">
+                </div>
+                <br>
+                <div id="con1">
+                    <input type="text" name="my password" id="password" placeholder="check your password">
+                </div>
+
+                <label class="container">
+                    <input type="checkbox" checked="checked">
+                    I accept all term &amp; condition
+                    <span class="checkmark"></span>
+
+                </label>
+                <!-- <h5 id="con2"> accept all term and condition</h5> -->
+                <input type="Submit" value="submit" class="button">
+                <!-- <form action="" onsubmit="Submitfunction()"></form> -->
+
+                <br>
+                <div class="l">
+                    <span class="last">Already have an account? </span><span class="last1">Login now</span>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
